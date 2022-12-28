@@ -8,7 +8,7 @@
     height: 100%;
     width: 100%;
     
-    background-image: url(/Education/pexels-asim-alnamat-556195.jpg);
+    background-image: url(pexels-asim-alnamat-556195.jpg);
     background-position: center;
     background-size: cover;
      z-index: -2;
@@ -185,7 +185,7 @@ Nav .Menu img{
          position: absolute;
         height: 53%;
         width: 100%;
-        background-image: url(/Education/pexels-asim-alnamat-556195.jpg);
+        background-image: url(pexels-asim-alnamat-556195.jpg);
         background-position: center;
         background-size: cover;
          z-index: -1;
@@ -510,7 +510,7 @@ padding-top: 10px;
       }
       /* cta */
       .cta{
-        background:url(/Education/Laptop.webp);
+        background:url(Laptop.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -560,7 +560,7 @@ padding-top: 10px;
            position: absolute;
             height: 60vh;
             width: 100%;
-            background: url(/Education/about.webp);
+            background: url(about.webp);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
