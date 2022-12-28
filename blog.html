@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="Edu.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <section class="Sub-Header">
+        <nav>
+            <div class="logo">
+                <a href=""><img src="/Education/EduLogo-removebg-preview.png" alt=""></a>
+                <h2>Eduford</h2>
+            </div>
+            <div class="NavLinks" id="Nav-Links">
+                <img src="/Education/close-removebg-preview.png" onclick="HideMenu()" alt="">
+                <ul>
+                    <a href="/Education/Edu.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="/Education/AboutUs.html.html">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="/Education/Courses.html">
+                        <li>COURSE</li>
+                    </a>
+                    <a href="/Education/blog.html">
+                        <li>BLOG</li>
+                    </a>
+                    <a href="/Education/Contact Us.html">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="Menu">
+                <img src="/Education/download-removebg-preview.png" onclick="ShowMenu()" alt="">
+            </div>
+        </nav>
+        <h1>OUR CERTIFICATES AND ONLINE PROGRAM 2022</h1>
+    </section>
+
+    <!-- Blog Contents -->
+    <div class="section3">
+        <div class="row">
+            <div class="left">
+                <img src="/Education/Certificate.jpg" alt="">
+                <h2>Our Certificates and Online program 2022</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus voluptatibus, fuga quas debitis
+                    accusamus repellendus sequi ipsam saepe voluptatum voluptates! Debitis voluptas ex distinctio quis
+                    odit laboriosam animi harum aspernatur.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem alias non perferendis
+                    molestias animi reprehenderit? Dolores nisi nostrum deleniti excepturi quod dicta voluptatem fugiat
+                    beatae placeat? Ad sapiente non sed doloremque magni accusantium? Veritatis deserunt, cum laudantium
+                    exercitationem eaque vel, sequi quibusdam deleniti reiciendis unde possimus optio ut soluta!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iste eius natus a nisi doloremque
+                    alias molestiae, molestias nemo inventore praesentium assumenda repellendus aspernatur aut, impedit
+                    corrupti expedita cumque quis voluptas ab? Possimus dignissimos vitae cumque sint molestias amet
+                    minima numquam fuga atque. In iure ut quasi quas quia fugit architecto impedit recusandae ad nisi!
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A omnis soluta est. A placeat rem mollitia
+                    aliquid distinctio magni beatae quidem iste saepe porro quos, harum, tempora nemo aut praesentium!
+                </p>
+
+                <div class="CommentBox">
+                    <h3>Leave a comment</h3>
+
+                    <form action="" class="Form">
+                     <input type="text" placeholder="Enter Your Name">
+                     <input type="email" placeholder="Enter Your Email">
+                     <textarea name=""  rows="5" placeholder="Enter Your Comment"></textarea>
+                     <button>Post a Comment</button>
+ 
+                    </form>
+                </div>
+            </div>
+
+            <div class="right">
+             <h2>Post Categories</h2>
+             <div>
+                <span>Buisness Analytics</span>
+                <span>50</span>
+             </div>
+
+             <div>
+                <span>Artificial Intilligence</span>
+                <span>80</span>
+             </div>
+
+             <div>
+                <span>Machine Learning</span>
+                <span>60</span>
+             </div>
+
+             <div>
+                <span>Data Science</span>
+                <span>80</span>
+             </div>
+
+             <div>
+                <span>Full Stack</span>
+                <span>90</span>
+             </div>
+
+             <div>
+                <span>Commerce</span>
+                <span>70</span>
+             </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section>
+        <div class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repudiandae officiis nostrum aliquid
+                consequatur cumque error,<br> porro dolore quam quod cupiditate recusandae optio minus modi voluptatibus
+                possimus ipsum neque itaque.</p>
+
+            <div class="icons">
+                <img src="/Education/facebook.png" alt="">
+                <img src="/Education/instagram.png" alt="">
+                <img src="/Education/twitter.png" alt="">
+                <img src="/Education/linkedin.png" alt="">
+            </div>
+            <p>Made with <img src="/Education/heart.png" alt=""> by Swara</p>
+        </div>
+    </section>
+
+    <!-- javascript for Toggle Menu -->
+    <script>
+        var nav = document.getElementById("Nav-Links");
+        function ShowMenu() {
+            nav.style.right = "0";
+        }
+        function HideMenu() {
+            nav.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

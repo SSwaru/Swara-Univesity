@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="Edu.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <section class="Sub-Header">
+        <nav>
+            <div class="logo">
+                <a href=""><img src="/Education/EduLogo-removebg-preview.png" alt=""></a>
+                <h2>Eduford</h2>
+            </div>
+            <div class="NavLinks" id="Nav-Links">
+                <img src="/Education/close-removebg-preview.png" onclick="HideMenu()" alt="">
+                <ul>
+                    <a href="/Education/Edu.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="/Education/AboutUs.html.html">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="/Education/Courses.html">
+                        <li>COURSE</li>
+                    </a>
+                    <a href="/Education/blog.html">
+                        <li>BLOG</li>
+                    </a>
+                    <a href="/Education/Contact Us.html">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="Menu">
+                <img src="/Education/download-removebg-preview.png" onclick="ShowMenu()" alt="">
+            </div>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+
+    <!-- About us info -->
+    <div class="section1">
+        <div class="row">
+            <div class="About">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fuga iure cumque rem assumenda
+                    illum quidem quod nulla, mollitia officia, nam possimus, placeat est perferendis. Facilis quam iste
+                    possimus ex eum repellat, laudantium dolor nesciunt odit, recusandae numquam aspernatur assumenda
+                    distinctio ratione ipsa ducimus quis voluptate harum veniam dicta nobis.</p>
+                <a href=""><button>Explore Now</button></a>
+            </div>
+            <img src="/Education/conferenceRoom.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section>
+        <div class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repudiandae officiis nostrum aliquid
+                consequatur cumque error,<br> porro dolore quam quod cupiditate recusandae optio minus modi voluptatibus
+                possimus ipsum neque itaque.</p>
+
+            <div class="icons">
+                <img src="/Education/facebook.png" alt="">
+                <img src="/Education/instagram.png" alt="">
+                <img src="/Education/twitter.png" alt="">
+                <img src="/Education/linkedin.png" alt="">
+            </div>
+            <p>Made with <img src="/Education/heart.png" alt=""> by Swara</p>
+        </div>
+    </section>
+
+    <!-- javascript for Toggle Menu -->
+    <script>
+        var nav = document.getElementById("Nav-Links");
+        function ShowMenu() {
+            nav.style.right = "0";
+        }
+        function HideMenu() {
+            nav.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

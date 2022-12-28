@@ -1,0 +1,738 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Header::before{
+    content: '';
+     position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    background-image: url(/Education/pexels-asim-alnamat-556195.jpg);
+    background-position: center;
+    background-size: cover;
+     z-index: -2;
+     filter: blur(2px);
+    }
+    
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo h2{
+color:black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+nav ul{
+    width: 80vw;
+    display: flex;
+    justify-content: right;
+    /* border: 2px solid red; */
+    }
+nav ul li{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vmin;
+    list-style: none;
+    padding: 10px;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul a:hover{
+    background-color: azure;
+}
+nav img{
+    width: 50px;
+}
+.TextBox{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.TextBox h1{
+    font-family: 'Ubuntu', sans-serif;;
+    color:rgb(59, 4, 4);;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 9vmin;
+}
+.TextBox h2{
+    color:black;
+    font-size: 3vmin;
+    text-align: center;
+}
+section button{
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 3vmin;
+    font-weight: 600;
+    cursor: pointer;
+}
+section button:hover{
+    background-color: red;
+    transition: 3s;
+}
+
+.NavLinks img{
+    display: none;
+}
+Nav .Menu img{
+    display: none;
+}
+@media(max-width:1270px) and (min-width:736px) {
+    .Header::before {
+        height: 90%;
+    }
+    
+    .TextBox{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+        padding: 10px;
+    }
+    .TextBox h1{
+        color:rgb(59, 4, 4);
+        font-weight: 600;
+        font-style: italic;
+        font-size: 5vmin;
+        width: 100vw;
+        text-align: center;
+    }
+    .TextBox h2{
+        color:black;
+        font-size: 3vmin;
+        text-align: center;
+    }
+    section button{
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 3vmin;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    nav ul {
+        width: 78vw;
+        display: flex;
+        justify-content: right;
+    }
+    #roww .column {
+        /* background-color: rgb(184, 223, 239); */
+        /* margin: 10px; */
+        border-radius: 0px 0px 0px 50px;
+        height: 250px;
+    }
+    .campus .row{
+        width: 100vw;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+    }
+     #row1{
+        width: 100vw;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+    }
+    #row1 h1{ 
+        text-align: center;
+    }
+    #row1 p{ 
+        text-align: center;
+    }
+    #row1 img{ 
+        width: 60%;
+        height: 60%;
+    }
+    .Testimonials {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .column-facility {
+        flex-basis: 31%;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+}
+.hidden{
+    opacity: 0;
+    display: none;
+}
+@media(max-width:735px) and (min-width:350px){
+
+    .Header::before{
+        content: '';
+         position: absolute;
+        height: 53%;
+        width: 100%;
+        background-image: url(/Education/pexels-asim-alnamat-556195.jpg);
+        background-position: center;
+        background-size: cover;
+         z-index: -1;
+         filter: blur(2px);
+        }
+    .TextBox{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* border: 2px solid blue; */
+        padding: 10px;
+    }
+    .TextBox h1{
+        color:black;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 6.5vmin;
+    }
+    .TextBox h2{
+        color:black;
+        font-size: 3vmin;
+        text-align: center;
+    }
+    section button{
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 3vmin;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    nav ul{
+        width: 38vw;
+        display: flex;
+        flex-direction: column;
+        background-color: yellowgreen;
+        }
+        nav ul li{
+            font-size: 4vmin;
+        }
+        .NavLinks img{
+            display: block;
+            /* margin: 25px; */
+            cursor: pointer;
+            width: 40px;
+        }
+        Nav .Menu img{
+            display: block;
+            /* margin: 5px; */
+            cursor: pointer;
+            width: 40px;
+            left: 90vh;
+        }
+        .NavLinks{
+            height: 15vh;
+            position: absolute;
+            right: 2px;
+            transition: 2s;
+        }
+        .logo a img{
+            width: 40px;
+        }
+}
+/* course */
+.Course{
+    padding: 50px;
+    text-align: center;
+}
+.Course h1{
+    text-align: center;
+    padding-top: 30px;
+    color:black;
+    font-weight: 200px;
+    font-size: 5vmin;
+}
+.Course p{
+    line-height: 30px; 
+}
+.row{
+    /* border: 2px solid orange; */
+    display: flex;
+}
+#roww h2{
+padding-top: 10px;
+}
+.Course .column{
+    background-color:rgb(184, 223, 239);
+    margin: 10px;
+    border-radius: 0px 0px 0px 50px;
+    height: 150px;
+}
+#column2{
+    background-color: rgb(87, 191, 232);
+}
+
+.Course .column:hover{
+    box-shadow: 0 0 20px 0px;
+    cursor: pointer;
+}
+
+@media(max-width:735px) and (min-width:350px) {
+    .Course .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #heading{
+        text-align: center;
+    }
+    #heading h1 {
+        color: black;
+        text-align: center;
+    }
+    
+
+    .Course{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .Course h1{
+        width: 100%;
+        color:azure;
+        font-weight: 200px;
+        font-style: italic;
+        font-size: 6vmin;
+    }
+    #heading p{
+        font-size: 3vmin;
+        line-height: 16px; 
+        color: black;
+    }
+    .column p{
+        line-height: 20px;
+    }
+}
+
+.campus h1{
+    text-align: center;
+    padding-top: 30px;
+    color:black;
+    font-weight: 200px;
+    font-size: 5vmin;
+    }
+    .campus p{
+        text-align: center;
+        padding: 10px;
+    }
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .class-column1 img{
+        height: 45vmin;
+        width: 50vmin;
+        border-radius: 10px;
+    }
+     
+    .class-column2 img{
+        height: 45vmin;
+        width: 50vmin;
+        border-radius: 10px;
+    }
+    .class-column3 img{
+        height: 45vmin;
+        width: 50vmin;
+        border-radius: 10px;
+    }
+    
+    .class-column1  :hover{
+        cursor: pointer;
+        box-shadow: 5px 5px blue;
+    }
+    .class-column2 :hover{
+        cursor: pointer;
+        box-shadow: 5px 5px  blue;
+    }
+    .class-column3 :hover{
+        cursor: pointer;
+        box-shadow: 5px 5px  blue;
+    }
+    .class-column1 h3{
+        width: 100%;
+      text-align: center;
+      }
+    .class-column2 h3{
+        text-align: center;
+      }
+      .class-column3 h3{
+        text-align: center;
+      }
+      @media(max-width:735px) and (min-width:350px){
+        .campus .row{
+            width: 100vw;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+      }
+
+      /* Facility */
+      .facility {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 80px;
+      }
+      .facility h1{
+        text-align: center;
+    padding-top: 30px;
+    color:black;
+    font-weight: 200px;
+    font-size: 5vmin;
+      }
+      .facility p{
+        padding: 10px;
+      }
+      .column-facility{
+        flex-basis: 31%;
+        text-align: center;
+        margin-bottom: 110px;
+      }
+      .column-facility img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+
+      }
+      .column-facility h1{
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .column-facility p{
+        text-align: left;
+      }
+      @media(max-width:735px) and (min-width:350px){
+        #row1{
+            width: 100vw;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+        }
+        #row1 h1 {
+            text-align: center;
+        }
+        #row1 p {
+            text-align: center;
+        }
+        .column-facility{
+            /* margin: 10px; */
+        }
+        .column-facility img{
+            width: 70%;
+            height: 70%;
+        }
+      }
+
+      /* Testimonials */
+      .Testimonials{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 60px;
+      }
+      .Testimonials h1{
+        text-align: center;
+    padding-top: 30px;
+    color:black;
+    font-weight: 200px;
+    font-size: 5vmin;
+      }
+      .Testimonials-column{
+        cursor: pointer;
+        flex-basis: 40%;
+        display: flex;
+        text-align: left;
+        background-color:#fff3f3;
+        margin-top: 40px;
+       }
+      .Testimonials-column img{
+        padding: 10px;
+        height: 40px;
+        border-radius: 80px;
+      }
+      .Testimonials-column p{
+        padding: 15px;
+        text-align: left;
+      }
+      .Testimonials-column h3{
+        text-align: left;
+        padding: 10px;
+      }
+      .Testimonials-column .Katrina img{
+        height: 20px;
+        width: 20px;
+        padding: 1px;
+      }
+      .Testimonials-column .Ranbir img{
+        height: 20px;
+        width: 20px;
+        padding: 1px;
+      }
+      @media(max-width:735px) and (min-width:350px) {
+        #TestRow{
+            width: 100vw;
+            text-align: center;
+            display: flex;
+            /* justify-content: space-between; */
+ }
+        .Testimonials h1 {
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+      }
+      /* cta */
+      .cta{
+        background:url(/Education/Laptop.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 80%;
+        margin: auto;
+        height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 50px;
+       }
+      .cta h1{
+        display: flex;
+        justify-content: center;
+        font-size: 5vmin;
+        }
+        
+       /* Footer */
+        .footer{
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .footer h4{
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .icons img{
+            padding: 10px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+        .footer img{
+            width: 20px;
+            height: 20px; 
+            padding-top: 8px;
+        }
+
+        /* About Us */
+        .Sub-Header::before{
+            content: '';
+           position: absolute;
+            height: 60vh;
+            width: 100%;
+            background: url(/Education/about.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            z-index: -1;
+           filter: blur(2px);
+        }
+        .Sub-Header h1{
+            text-align: center;
+            font-weight: 800;
+            font-size: 4vmin;
+            margin-top: 100px;
+        }
+         .section1{
+        width: 80vw;
+        margin: auto;
+        margin-top: 300px;
+        /* border: 2px solid violet; */
+    }
+        .section1 img{
+            width: 60vw;
+            height: 50vh;
+        }
+        
+        .About{
+            width: 55vw;
+            text-align: left;
+        }
+        .About p{
+            margin-top: 20px;
+            margin-bottom: 30px;
+            line-height: 20px;
+        }
+        .About button{
+            padding: 10px;
+            border-radius: transpert 10px;
+            cursor: pointer;
+            border: 1px transparent;
+            border-radius: 10px;
+            height: 50px;
+           background-color: skyblue;
+            font-size: large;
+            font-weight: bolder;
+        }
+        .About a :hover{
+        background-color: red;
+         transition: 10s;
+        }
+
+        /* Courses tab */
+        .section2{
+            margin-top: 250px;
+        }
+
+        /* Facilities Tab */
+        
+        .section4{
+            margin-bottom: 20px;
+        }
+
+        /* Blog Tab */
+        .section3{
+            width: 80%;
+            margin: auto;
+            margin-top: 250px;
+        }
+        .left{
+            flex-basis: 60%;
+        }
+        .left img{
+           width: 60%;
+           margin-bottom: 20px;
+        }
+        .left p{
+            width: 62%;
+            margin-top: 20px;
+        }
+        .right{
+            flex-basis: 30%;
+        }
+        .right h2{
+            color: azure;
+            background-color: red;
+            margin-bottom: 20px;
+            padding: 5px;
+        }
+        .right div{
+            padding: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .CommentBox{
+            margin-top: 20px;
+           
+    }
+        .Form input , .Form textarea{
+            margin-top: 10px;
+            width: 80%;
+            padding: 5px;
+        }
+        .Form button{
+            margin-top: 10px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 2vmin;
+            font-weight: 600;
+            cursor: pointer; 
+        }
+        .Form button:hover{
+            background-color: red;
+            transition: 3s;
+        }
+        /* location */
+        iframe{
+            display: block;
+            width: 80%;
+            margin:auto;
+            margin-top: 300px;
+        }
+        .address{
+            display: flex;
+             margin-top: 20px;
+        }
+        .call{
+            display: flex;
+            margin-top: 20px;
+        }
+        .Email{
+            display: flex;
+            margin-top: 20px;
+        }
+        .address img{
+            padding-right: 10px;
+             width: 30px;
+            height: 30px;
+        }
+        .call img{
+            padding-right: 10px;
+            width: 30px;
+            height: 30px;
+        }
+        .Email img{
+            padding-right: 10px;
+            width: 30px;
+            height: 30px;
+        }
+        .conta{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .conta1 h5{
+            font-weight: bolder;
+        }
+        .conta2 button{
+            margin-top: 10px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 2vmin;
+            font-weight: 600;
+            cursor: pointer; 
+        }
+        .conta2 button:hover{
+            background-color: red;
+            transition: 3s;
+        }
+        /* Contact us tab */
+        @media(max-width:735px) and (min-width:350px) {
+            .conta{
+                display: block;
+            }
+        }
