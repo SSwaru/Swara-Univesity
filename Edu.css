@@ -442,7 +442,10 @@ padding-top: 10px;
             text-align: center;
         }
         .column-facility{
-            /* margin: 10px; */
+            width: 100vw;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
         }
         .column-facility img{
             width: 70%;
