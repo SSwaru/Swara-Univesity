@@ -137,7 +137,9 @@ Nav .Menu img{
         /* background-color: rgb(184, 223, 239); */
         /* margin: 10px; */
         border-radius: 0px 0px 0px 50px;
-        height: 250px;
+        /* height: 250px; */
+        height: 50vw;
+    max-height: 160px;
     }
     .campus .row{
         width: 100vw;
@@ -252,6 +254,17 @@ Nav .Menu img{
         .logo a img{
             width: 40px;
         }
+
+        /* About us */
+        .About h1{
+            font-size: 5vmin;
+            padding-top: 10px;
+        }
+        #AboutPage{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
 }
 /* course */
 .Course{
@@ -280,6 +293,7 @@ padding-top: 10px;
     margin: 10px;
     border-radius: 0px 0px 0px 50px;
     height: 200px;
+    
 }
 #column2{
     background-color: rgb(87, 191, 232);
@@ -409,11 +423,23 @@ padding-top: 10px;
       .facility p{
         padding: 10px;
       }
-      .column-facility{
+      /* .column-facility{
         flex-basis: 31%;
         text-align: center;
         margin-bottom: 110px;
-      }
+      } */
+      /* .column-facility{
+        width: 80vw;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    } */
+    .column-facility {
+        flex-basis: 31%;
+        text-align: center;
+        margin-bottom: 45px;
+    }
       .column-facility img{
         width: 100%;
         height: 100%;
@@ -428,6 +454,11 @@ padding-top: 10px;
       .column-facility p{
         text-align: left;
       }
+      .Course-column-facility {
+        flex-basis: 31%;
+        text-align: center;
+        margin-bottom: 45px;
+    }
       @media(max-width:735px) and (min-width:350px){
         #row1{
             width: 100vw;
@@ -442,6 +473,12 @@ padding-top: 10px;
             text-align: center;
         }
         .Course-column-facility{
+            width: 100vw;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+        }
+        .column-facility{
             width: 100vw;
                 text-align: center;
                 display: flex;
@@ -503,7 +540,6 @@ padding-top: 10px;
             width: 100vw;
             text-align: center;
             display: flex;
-            flex-direction: column;
             /* justify-content: space-between; */
  }
         .Testimonials h1 {
