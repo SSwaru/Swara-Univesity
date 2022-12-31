@@ -772,7 +772,7 @@ padding-top: 10px;
             transition: 3s;
         }
         /* Contact us tab */
-        @media(max-width:735px) and (min-width:350px) {
+        @media(max-width:735px) and (min-width:340px) {
             .conta{
                 display: block;
             }
