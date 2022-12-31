@@ -484,9 +484,10 @@ padding-top: 10px;
                 display: flex;
                 flex-direction: column;
         }
-        .column-facility img{
-            width: 70%;
-            height: 70%;
+       .column-facility img{
+            width: 80%;
+            display: block;
+            margin: auto;
         }
       }
 
