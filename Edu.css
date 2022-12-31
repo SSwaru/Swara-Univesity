@@ -478,12 +478,12 @@ padding-top: 10px;
                 display: flex;
                 flex-direction: column;
         }
-        .column-facility{
+/*         .column-facility{
             width: 100vw;
                 text-align: center;
                 display: flex;
                 flex-direction: column;
-        }
+        } */
        .column-facility img{
             width: 80%;
             display: block;
