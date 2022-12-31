@@ -259,7 +259,7 @@ Nav .Menu img{
         .About h1{
             font-size: 5vmin;
             padding-top: 10px;
-        }
+    }
         #AboutPage{
             display: flex;
             flex-direction: column-reverse;
@@ -538,10 +538,9 @@ padding-top: 10px;
       }
       @media(max-width:735px) and (min-width:350px) {
         #TestRow{
-            width: 100vw;
-            text-align: center;
-            display: flex;
-            /* justify-content: space-between; */
+            width: 90vw;
+    display: block;
+    margin: auto;
  }
         .Testimonials h1 {
             text-align: center;
