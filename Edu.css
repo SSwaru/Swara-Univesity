@@ -783,4 +783,10 @@ padding-top: 10px;
                 display: block;
                 margin: auto;
             }
+            
+            /* Blog Tab */
+            #BlogPage{
+                display: flex;
+                flex-direction: column-reverse;
+            }
         }
