@@ -775,4 +775,11 @@ padding-top: 10px;
             .conta{
                 display: block;
             }
+
+          /* Facility Tab */
+            #FacilityPage{
+                width: 90vw;
+                display: block;
+                margin: auto;
+            }
         }
