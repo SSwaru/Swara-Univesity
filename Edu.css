@@ -428,13 +428,13 @@ padding-top: 10px;
         text-align: center;
         margin-bottom: 110px;
       }
-      /* .column-facility{
+      .column-facility{
         width: 80vw;
             text-align: center;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-    } */
+    }
     .column-facility {
         flex-basis: 31%;
         text-align: center;
@@ -782,6 +782,11 @@ padding-top: 10px;
 /*                 width: 90vw; */
                 display: block;
                 margin: auto;
+            }
+            
+            #FacilityPage img{
+                width: 50%;
+                height: 50%;
             }
             
             /* Blog Tab */
